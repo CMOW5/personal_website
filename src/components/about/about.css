@@ -1,0 +1,51 @@
+.About-name, .About-profession, .About-location   {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.About {
+  text-align: center;
+}
+
+.About-avatar {
+  padding: .5em 0 0 0;
+}
+
+.About-avatar img {
+  border-radius: 100%;
+  width: 10rem;
+  height: 10rem;
+  border: 0.2rem solid #dd4814;
+  margin: 0 auto;
+  display: block;
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+}
+
+.About-name h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin: .5em 0 0 0;
+  color: #dd4814;
+}
+
+.About-profession p {
+  margin: .2em 0 1em 0;
+  letter-spacing: 1.6px;
+  font-weight: 300;
+  color: #dd4814;
+}
+
+.About-desc {
+  color: #757575;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0 0 1em 0;
+}
+
+.About-location {
+  font-size: 1em;
+  font-weight: 400;
+  color: #757575;
+  margin: 0 0 1em 0;
+}

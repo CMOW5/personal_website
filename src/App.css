@@ -1,33 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Roboto:300,400,500');
+
 .App {
+  font-family: 'Lato', sans-serif;
+  padding-top: 2rem;
+  background: #f5f5f5;
+}
+
+.item {
+  margin-top: 1rem;
+  margin-bottom: 1rem; 
+}
+
+.item > h3 {
+  color: #212121;
+  font-weight: 400;
+  margin: .5em 0;
+}
+
+ul.info-list {
+  list-style-type: circle;
+  margin-left: 2rem;
+}
+
+.Info-title {
+  color: #dd4814 !important;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width:641px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  ul.info-list {
+    margin-left: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Info-title {
+    text-align: left;
   }
 }

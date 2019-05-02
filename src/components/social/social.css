@@ -1,0 +1,21 @@
+.Social {
+  margin: 0 auto;
+  display: block;
+}
+
+.Social ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Social li {
+  display: inline;
+  margin: 0 1em 0 0;
+}
+
+.Social a {
+  color: #212121;
+  text-decoration: none;
+  font-size: 1.2em;
+}
