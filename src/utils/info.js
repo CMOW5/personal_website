@@ -6,7 +6,7 @@ export default {
   "bio":`I'm an Electronic engineering student and a web developer focused on backend. I have a great passion for
   building systems and I focus on deliver clean, robust, and testable software as possible. I keep learning about
   how to deliver high scalable and maintainable software.
-  I also know the basics of cloud computing, artificial intelligence and IoT, but I’m very interested in going deeper
+  I also know the basics of artificial intelligence and IoT, but I’m very interested in going deeper
   into these subjects.`,
   "education": [
     {
