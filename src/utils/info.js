@@ -108,7 +108,7 @@ export default {
     },
     {
     "name": "facebook",
-    "url": "https://www.facebook.com/profile.php?id=100008177702762"
+    "url": "https://www.facebook.com/cmow5"
     },
   ]
 }
