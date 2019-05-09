@@ -37,21 +37,13 @@ export default {
     },
     {
       "company": "Cabitech",
-      "startDate": "June 2018",
+      "startDate": "December 2017",
       "endDate": "September 2018",
       "jobTitle": "Freelance Web Developer",
       "responsibilities": [
-        'Developed an IoT prototype to communicate several devices on tables in a restaurant. Using nodejs and arduino with the ESP8266 Wifi module and the MQTT protocol.'
-      ],
-    },
-    {
-      "company": "Cabitech",
-      "startDate": "December 2017",
-      "endDate": "June 2018",
-      "jobTitle": "Freelance Web Developer",
-      "responsibilities": [
         'Built an admin web application to manage the products of vending machines.',
-        'Developed a restful API to sell cell phone recharges.'
+        'Developed a restful API to sell cell phone recharges.',
+        'Developed an IoT prototype to communicate several devices on tables in a restaurant. Using nodejs and arduino with the ESP8266 Wifi module and the MQTT protocol.'
       ],    
     }
   ],
