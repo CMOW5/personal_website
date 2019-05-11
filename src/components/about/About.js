@@ -3,7 +3,7 @@ import Social from '../social/Social';
 import image from '../../assets/picture.png';
 import './about.css';
 
-const About = ({ avatar, name, profession, bio, address, social }) => (
+const About = ({ avatar, name, profession, bio, address, social, email, phone }) => (
   <div className="About">
     <div className="About-container">
       <div className="About-avatar">
@@ -20,9 +20,25 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
       <div className="About-desc">
         {bio}
       </div>
+
+      <div className="About-contact">
+        <span className="icon">
+          <i className="far fa-envelope myicon"></i>
+          <span>{email}</span>
+        </span>
+      </div>
+
+      <div className="About-contact">
+        <span className="icon">
+          <i className="fas fa-phone"></i>
+          <span>{phone}</span>
+        </span>
+      </div>
+      
       <div className="About-location">
         {address}
       </div>
+      
       <div className="About-social">
         <Social social={social} />
       </div>
@@ -31,3 +47,15 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
 );
 
 export default About;
+
+/*
+
+     <div className="About-location">
+        {email}
+      </div>
+
+      <div className="About-location">
+        {phone}
+      </div>
+
+*/

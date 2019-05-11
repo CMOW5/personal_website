@@ -49,3 +49,14 @@
   color: #757575;
   margin: 0 0 1em 0;
 }
+
+.About-contact {
+  font-size: 1em;
+  font-weight: 400;
+  color: #757575;
+  margin: 0 0 1em 0;
+}
+
+.About-contact span {
+  margin-left: 0.2rem;
+}
