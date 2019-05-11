@@ -2,6 +2,8 @@ export default {
   "name": "Cristian Mosquera",
   "profession": "BackEnd Developer",
   "address": "Medellin, Colombia.",
+  "email": "tec.cmos@gmail.com",
+  "phone": "+57 3192741182",
   "avatar": "https://mypicture.png",
   "bio":`I'm an Electronic engineering student and a web developer focused on backend. I have a great passion for
   building systems and I focus on deliver clean, robust, and testable software as possible. I keep learning about
@@ -100,6 +102,16 @@ export default {
       "name": "Web application Deployment on VPS",
       "percentage": "60%"
     },
+  ],
+  "languages": [
+    {
+      "name": "Spanish",
+      "proficiency": "native"
+    },
+    {
+      "name": "English",
+      "proficiency": "B2"
+    }
   ],
   "social": [
     {
