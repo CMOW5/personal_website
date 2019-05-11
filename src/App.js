@@ -7,6 +7,7 @@ import About from './components/about/About';
 import Education from './components/education/Education';
 import Experience from './components/experience/Experience';
 import Skills from './components/skills/Skills';
+import Languages from './components/languages/Languages';
 import Loader from './components/loader/Loader';
 import Footer from './components/footer/Footer';
 import './App.css';
@@ -24,6 +25,8 @@ function App() {
             profession={data.profession}
             bio={data.bio}
             address={data.address}
+            email = {data.email}
+            phone = {data.phone}
             social={data.social}
           />
         </Sidebar>
@@ -31,6 +34,7 @@ function App() {
           <Education data={data.education} />
           <Experience data={data.experience} />
           <Skills data={data.skills} />
+          <Languages data={data.languages} />
         </Info>
       </Main>
       <Footer />
