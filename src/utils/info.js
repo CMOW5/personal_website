@@ -106,7 +106,7 @@ export default {
     },
     {
       "name": "CSS.",
-      "percentage": "70%"
+      "percentage": "65%"
     },
     {
       "name": "Web application Deployment on VPS.",
