@@ -6,7 +6,7 @@ set -e
 # build
 npm run build
 
-git add dist && git commit -m "Initial dist subtree commit"
+git add build && git commit -m "Initial dist subtree commit"
 
 git subtree push --prefix build production master
 
