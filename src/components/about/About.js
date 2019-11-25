@@ -1,6 +1,6 @@
 import React from 'react';
 import Social from '../social/Social';
-import image from '../../assets/picture.png';
+import image from '../../assets/picture.jpg';
 import './about.css';
 
 const About = ({ avatar, name, profession, bio, address, social, email, phone }) => (

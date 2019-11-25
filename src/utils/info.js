@@ -28,19 +28,29 @@ export default {
   ],
   "experience": [
     {
+      "company": "Ceiba Software.",
+      "startDate": "July 2019",
+      "endDate": "Present",
+      "jobTitle": "Full Stack Developer",
+      "responsibilities": [
+        'Support the development of the Wingo airline website to make flight reservations.',
+        'Built a scan packing frontend with angular 7 to keep track of clothing inventory.',
+      ],
+    },
+    {
       "company": "Corantioquia/UdeA",
       "startDate": "September 2018",
       "endDate": "January 2019",
       "jobTitle": "Instrumentation",
       "responsibilities": [
-        'Support the development of the website: http://www.piraguacorantioquia.com.co.',
-        'I Optimized the code of the weather stations (python + raspberry pi, IoT) in order to decrease the raspberry pi temperature by 30% and the CPU usage by 20%'
+        'Installation of IoT stations to measure the weather conditions of the department of Antioquia.',
+        'I Optimized the code of the weather stations (python + raspberry pi, IoT) in order to decrease the raspberry pi temperature by 30% and the CPU usage by 20%.',
       ],
     },
     {
       "company": "Cabitech",
-      "startDate": "December 2017",
-      "endDate": "September 2018",
+      "startDate": "March 2017",
+      "endDate": "May 2018",
       "jobTitle": "Freelance Web Developer",
       "responsibilities": [
         'Built an admin web application to manage the products of vending machines.',
@@ -51,7 +61,7 @@ export default {
   ],
   "skills": [
     {
-      "name": "Backend development with Java 8",
+      "name": "Backend development with Java 8.",
       "percentage": "75%"
     },
     {
@@ -59,7 +69,11 @@ export default {
       "percentage": "70%"
     },
     {
-      "name": "TDD with JUnit and Mockito.",
+      "name": "Angular 7+.",
+      "percentage": "80%"
+    },
+    {
+      "name": "TDD with JUnit, Mockito and Protractor.",
       "percentage": "60%"
     },
     {
@@ -71,7 +85,7 @@ export default {
       "percentage": "70%"
     },
     {
-      "name": "Relational databases (MySQL, PostgreSQL)",
+      "name": "Relational databases (MySQL, PostgreSQL).",
       "percentage": "70%"
     },
     {
@@ -79,27 +93,23 @@ export default {
       "percentage": "70%"
     },
     {
-      "name": "Dependency management with Gradle",
+      "name": "Dependency management with Gradle and NPM.",
       "percentage": "60%"
     },
     {
-      "name": "Javascript",
+      "name": "Javascript.",
       "percentage": "80%"
     },
     {
-      "name": "HTML",
+      "name": "HTML.",
       "percentage": "90%"
     },
     {
-      "name": "CSS",
+      "name": "CSS.",
       "percentage": "70%"
     },
     {
-      "name": "React.js",
-      "percentage": "80%"
-    },
-    {
-      "name": "Web application Deployment on VPS",
+      "name": "Web application Deployment on VPS.",
       "percentage": "60%"
     },
   ],
@@ -121,6 +131,10 @@ export default {
     {
     "name": "facebook",
     "url": "https://www.facebook.com/cmow5"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/cristian-mosquera-escobar-0377ab186"
     },
   ]
 }
