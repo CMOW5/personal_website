@@ -14,3 +14,5 @@ git subtree push --prefix build production master
 # git checkout -b dist
 # git commit -m "build folder"
 # git subtree push --prefix build production master
+
+# git push production `git subtree split --prefix build dist`:master --force
