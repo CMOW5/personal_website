@@ -28,7 +28,7 @@ export default {
   ],
   "experience": [
     {
-      "company": "Globant",
+      "company": "Globant.",
       "startDate": "December 2019",
       "endDate": "Present",
       "jobTitle": "Java Developer",
@@ -47,7 +47,7 @@ export default {
       ],
     },
     {
-      "company": "Corantioquia/UdeA",
+      "company": "Corantioquia/UdeA.",
       "startDate": "September 2018",
       "endDate": "January 2019",
       "jobTitle": "Instrumentation",
@@ -57,7 +57,7 @@ export default {
       ],
     },
     {
-      "company": "Cabitech",
+      "company": "Cabitech.",
       "startDate": "March 2017",
       "endDate": "May 2018",
       "jobTitle": "Freelance Web Developer",
