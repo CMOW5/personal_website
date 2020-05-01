@@ -28,9 +28,18 @@ export default {
   ],
   "experience": [
     {
+      "company": "Globant",
+      "startDate": "December 2019",
+      "endDate": "Present",
+      "jobTitle": "Java Developer",
+      "responsibilities": [
+        'Support the UM Team at Disney',
+      ],
+    },
+    {
       "company": "Ceiba Software.",
       "startDate": "July 2019",
-      "endDate": "Present",
+      "endDate": "December 2014",
       "jobTitle": "Full Stack Developer",
       "responsibilities": [
         'Support the development of the Wingo airline website to make flight reservations.',
